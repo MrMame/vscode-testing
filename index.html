@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ein kleines Pixel-Pet zum Ausprobieren von GitHub Copilot."
+    />
+    <title>Pixel-Pet</title>
+  </head>
+  <body>
+    <main class="game">
+      <p class="eyebrow">Dein kleines digitales Haustier</p>
+      <h1>Pixel-Pet</h1>
+      <p class="intro">Ein Tipp oder Klick muntert dein Wesen auf.</p>
+      <canvas
+        id="creature"
+        width="224"
+        height="224"
+        aria-label="Pixel-Wesen. Tippe oder klicke darauf, um es aufzumuntern."
+      ></canvas>
+      <p id="happiness" class="status" aria-live="polite"></p>
+      <p id="message" class="message" role="status" aria-live="polite"></p>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

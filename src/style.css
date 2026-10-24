@@ -1,0 +1,72 @@
+:root {
+  font-family: "Trebuchet MS", sans-serif;
+  color: #25223a;
+  background: #f8f2e8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 280px;
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(ellipse at 50% 38%, #fffdf8 0, #f8f2e8 68%),
+    #f8f2e8;
+}
+
+.game {
+  width: min(100% - 2rem, 28rem);
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.eyebrow {
+  margin: 0;
+  color: #8d6470;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0.45rem 0;
+  font-size: clamp(2.5rem, 12vw, 4rem);
+  line-height: 1;
+}
+
+.intro {
+  margin: 1rem 0;
+  color: #655d70;
+}
+
+canvas {
+  display: block;
+  width: min(70vw, 14rem);
+  height: auto;
+  margin: 1.5rem auto 0.75rem;
+  image-rendering: pixelated;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+
+.status {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.message {
+  min-height: 1.5em;
+  margin: 0.65rem 0 0;
+  color: #655d70;
+}
