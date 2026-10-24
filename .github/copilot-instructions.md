@@ -2,6 +2,7 @@
 
 - Antworte standardmäßig auf Deutsch, sofern die Anfrage keine andere Sprache vorgibt.
 - Prüfe bei Aufgaben mit fachlichen Anforderungen die `REQUIREMENTS.md` im Projekt-Root und gleiche die Umsetzung mit ihr ab. Falls die Datei fehlt oder Anforderungen unklar bzw. widersprüchlich sind, weise ausdrücklich darauf hin.
+- Frage vor größeren oder neuen fachlichen Codeänderungen, ob aus den Lösungsvorschlägen ein Feature-Request erstellt werden soll. Als größere Änderung gelten insbesondere neue, für Nutzende sichtbare Funktionen, Änderungen an mehreren Komponenten oder Änderungen an Architektur, Datenmodell oder Schnittstellen. Warte die Antwort ab, bevor du mit der Implementierung beginnst. Feature-Requests werden unter `docs/feature-requests/` abgelegt; nach vollständiger Umsetzung und Prüfung wird der Request nach `docs/feature-requests/done/` verschoben.
 - Prüfe vor Änderungen die betroffenen Dateien und orientiere dich an den vorhandenen Mustern und Konventionen.
 - Halte Änderungen gezielt und vollständig; vermeide nicht angefragte Umbauten und erfinde keine Architektur oder Werkzeuge, die das Projekt nicht benötigt.
 - Ergänze oder passe Tests und Dokumentation an, wenn sie von einer Änderung betroffen sind.
