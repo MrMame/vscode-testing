@@ -20,6 +20,8 @@ Vite zeigt nach dem Start die lokale Entwicklungsadresse an.
 
 ```sh
 npm run dev       # Entwicklungsserver starten
+npm run "Starte Test MCP Server" # Test-MCP-Server starten
+npm run "Stoppe Test MCP Server" # Test-MCP-Server stoppen
 npm run typecheck # TypeScript prüfen
 npm test          # Tests ausführen
 npm run build     # Produktions-Build erstellen

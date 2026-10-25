@@ -8,6 +8,8 @@
   },
   "scripts": {
     "dev": "vite",
+    "Starte Test MCP Server": "node tools/MCP-Server-Release/mcp-testing-server.mjs --transport http --port 3200 --monitor-port 3201",
+    "Stoppe Test MCP Server": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/stop-test-mcp-server.ps1",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "build": "npm run typecheck && vite build",
